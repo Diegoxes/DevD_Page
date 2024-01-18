@@ -1,0 +1,17 @@
+/* Slider.css */
+.background-filter {
+    position: relative;
+}
+
+.background-filter::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #434343;
+    opacity: 0.7;
+}
+
+.slider-title,
+.slider-p{
+    position: relative;
+}

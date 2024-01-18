@@ -1,0 +1,104 @@
+.section_2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.container_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.title_2_sect{
+    font-size: 30px;
+    color: #00619A;
+}
+*/
+
+.info_click{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_click_img{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 20px;
+}
+
+.title_click{
+    font-size: 30px;
+    color: #009861;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.parrafo_click{
+    color: #5C5C5C;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 80%;
+}
+
+.cont_img_click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_click{
+    width: 519px;
+    height: 300px;
+}
+
+@media screen and (max-width: 768px){
+    .container_click_img{
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .title_click{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .img_click{
+        width: 90%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* @media screen and (max-width: 600px){
+    .title_click{
+        font-size: 24px;
+    }
+} */
+
+
+/*
+@media screen and (max-width: 360px){
+    .title_click{
+        font-size: 18px;
+    }
+}
+*/

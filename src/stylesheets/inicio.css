@@ -1,0 +1,16 @@
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.bg-gradient {
+    background: linear-gradient(to right, #FFFFFF, #88DEFF);
+    background-size: 200% 100%;
+    animation: gradientAnimation 6s linear;
+    height: 100%;
+}

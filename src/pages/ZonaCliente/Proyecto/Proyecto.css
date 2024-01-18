@@ -1,0 +1,41 @@
+
+
+.titleProyect{
+    font-size: 36px;
+    font-weight: 400;
+    color: #00619A;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.containerProyect1{
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+}
+
+.containerProyect2{
+    margin-left: 10px;
+}
+
+.containerproyect{
+    width: 641px;
+    background-color: #E4E4E4;
+    height: 1271px;
+    border-radius: 20px;
+    
+}
+
+.parrafo{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+   
+    margin-right: 5px;
+}
+
+.cajaP{
+    height: 60px;
+
+}
